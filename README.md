@@ -35,9 +35,11 @@ If you contribute to this project, your contributions will be licensed under the
 
 # Acknowledgements
   ## Thanks for this projects
-<pre> 
- [Me](https://t.me/nahom_d54)
- [python telegram bot](https://github.com/python-telegram-bot/python-telegram-bot)
- [AioHttp](https://docs.aiohttp.org/en/stable/)
- [abyssinica.com](https://dictionary.abyssinica.com/)
-</pre>
+  [Me](https://t.me/nahom_d54)
+
+  [python telegram bot](https://github.com/python-telegram-bot/python-telegram-bot)
+
+  [AioHttp](https://docs.aiohttp.org/en/stable/)
+  
+  [abyssinica.com](https://dictionary.abyssinica.com/)
+

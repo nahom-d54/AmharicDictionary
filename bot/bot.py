@@ -1,6 +1,7 @@
 from telegram import ForceReply, Update
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
 from .dictionary import fetch
+from .config import Config
 
 async def start(update,context):
     user = update.effective_user
@@ -9,20 +10,13 @@ async def start(update,context):
     )
 async def help_user(update,context):
     user = update.effective_user
-    await update.message.text(
-        "help"
+    await update.message.reply_text(
+        Config.HELP
     )
 async def about(update,context):
     user = update.effective_user
-    await update.message.text(
-        "contrib and users and api mention and "
-    )
-
-async def test_func(update,context):
-    user = update.effective_user
-    await update.message.reply_html(
-        rf"Hi {user.mention_html()}!",
-        reply_markup=ForceReply(selective=True),
+    await update.message.reply_text(
+        Config.ABOUT
     )
 
 async def mezgebe_kalat(update,context):

@@ -2,6 +2,7 @@ import os
 
 class Config:
     BOT_TOKEN = os.environ.get("BOT_TOKEN","")
+    START = "Hello this is an Amharic dictionary bot\Made in 🇪🇹"
     THANKS = f"""Thanks to ..."""
     BASE = "https://dictionary.abyssinica.com/Services/AjaxService.svc/GetSearchResult"
     API_BASE_URL = os.environ.get("API_URL",BASE)
@@ -21,5 +22,5 @@ This is the simplest help guide
 /about - for the about page
 
 """
-    
+
 

@@ -1,0 +1,2 @@
+# AmharicDictionary
+amharic dictionary bot

@@ -7,7 +7,7 @@ Users can interact with the bot by sending a message with a word they want to lo
 Overall, the Amharic and Geez Dictionary Telegram Bot is a convenient and accessible tool for anyone who wants to learn more about these languages.
 
 # Installation
-First clone [AmhoaricDictionaryBot](https://github.com/nahom-d54/AmharicDictionary)
+First clone [AmharicDictionaryBot](https://github.com/nahom-d54/AmharicDictionary)
 ``` shell
 git clone https://github.com/nahom-d54/AmharicDictionary.git
 
